@@ -1,8 +1,8 @@
 [
     {
-        "route": "/message",
-        "http_method": "PUT",
-        "function_name": "handleWebhookPutMessage",
+        "route": "/chat",
+        "http_method": "POST",
+        "function_name": "mainWebhookPostChat",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -10,9 +10,9 @@
         "disabled": false
     },
     {
-        "route": "/chat",
-        "http_method": "POST",
-        "function_name": "mainWebhookPostChat",
+        "route": "/message",
+        "http_method": "PUT",
+        "function_name": "handleWebhookPutMessage",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,

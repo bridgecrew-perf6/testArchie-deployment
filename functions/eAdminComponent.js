@@ -6,7 +6,7 @@ const IMAGEURL = ["https://cdn.pacificgroup.net/res/6e4ad500-1b00-11eb-a920-8125
                   "https://cdn.pacificgroup.net/res/95260e70-7242-11ec-bcdf-3f57d19e6568-pcb-archie-profile-pic-360x360.png"
                   ]
 
-const EMOJIS = ["🤔"];
+const EMOJIS = ["🤔", ""];
 
 exports = function (arg){
   const [user, eAdminData] = arg;
